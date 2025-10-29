@@ -8,8 +8,7 @@ export default class Product {
     discountPercentage:number;
     category:string;
 
-    
-
+  
     constructor(id:number, price:number, discountPercentage:number, category:string){
         this.id = id;
         //this.title = title;
@@ -20,7 +19,7 @@ export default class Product {
     
 
      displayDetails() {
-        return `${this.id}, ${this.discountPercentage}, ${this.category}, ${this.price}`
+        return `Product Id: ${this.id}, Discount Offered: $${this.discountPercentage}, Product Category: ${this.category}, Product Price: $${this.price}`
      }
 
       getPriceWithDiscount() {

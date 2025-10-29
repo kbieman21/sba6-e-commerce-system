@@ -60,8 +60,5 @@ export function processOrder(product: Product){
     }
         
     console.log('Discount is applied');
-    
-    
-    
 }
 
